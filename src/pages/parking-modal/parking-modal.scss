@@ -1,0 +1,42 @@
+page-parking-modal {
+
+.ion-modal {
+padding: 30px;
+background: rgba(0,0,0,0.7)
+}
+
+ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+
+  .marq{
+      color: red;
+  }
+
+  ion-label{
+
+      font-size: 15px;
+  }
+
+  .ptitle
+  {
+    font-size: 12px;
+  }
+  
+  .ion-heading{
+      font-weight: bold;
+  }
+    .card-subtitle2{
+      font-weight: bold;
+  }
+#close{
+    display:block;
+    float:right;
+    width:30px;
+    height:29px;
+background:url(http://www.htmlgoodies.com/img/registrationwelcome/close_icon.png) no-repeat center center;
+}
+
+}

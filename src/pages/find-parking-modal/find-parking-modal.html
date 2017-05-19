@@ -1,0 +1,48 @@
+<!--
+  Generated template for the FindParkingModal page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="HeaderColor">
+    <ion-title>Find Your Parkings<a id="close" href="#" (click)="closeModal()"></a></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label>Where to go ?</ion-label>
+      <!--<ion-input type="text" [(ngModel)]="place"></ion-input>-->
+      <ion-input (click)="showAddressModal()" [(ngModel)]="address.place" type="text" placeholder="Pick an address"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Start Time</ion-label>
+      <ion-datetime displayFormat="MMM DD YYYY HH:mm" pickerFormat="MMM DD YYYY HH:mm" [(ngModel)]="starttime"></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-label>End Time</ion-label>
+      <ion-datetime displayFormat="MMM DD YYYY HH:mm" [(ngModel)]="endtime"></ion-datetime>
+    </ion-item>
+    <!--<ion-item>
+        <ion-label>Number of Hours</ion-label>
+        <ion-select [(ngModel)]="hours">
+          <ion-option value="2" selected="true">2 Hrs</ion-option>
+          <ion-option value="4">4 Hrs</ion-option>
+          <ion-option value="6">6 Hrs</ion-option>
+          <ion-option value="8">8 Hrs</ion-option>
+          <ion-option value="10">10 Hrs</ion-option>
+          <ion-option value="12">12 Hrs</ion-option>
+          <ion-option value="14">14 Hrs</ion-option>
+          <ion-option value="16">16 Hrs</ion-option>
+          <ion-option value="18">18 Hrs</ion-option>
+          <ion-option value="20">20 Hrs</ion-option>
+          <ion-option value="22">22 Hrs</ion-option>
+          <ion-option value="24">24 Hrs</ion-option>
+        </ion-select>
+      </ion-item>-->
+  </ion-list>
+  <button ion-button block (click)="searchParkingLots()">Book</button>
+
+</ion-content>

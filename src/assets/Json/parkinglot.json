@@ -1,0 +1,89 @@
+{
+  "numResults": 2,
+  "results": [
+    {
+      "createdDate": 1488784370217,
+      "createdBy": "ajar",
+      "updatedDate": 1488871426760,
+      "updatedBy": "ajar",
+      "deleted": false,
+      "token": "8811cd57-e92e-44af-86a7-dd6bdd09de56",
+      "name": "DLF Capitol Point Parking Lot",
+      "description": "Next to Hanuman Mandir, Baba Kharak Singh Marg, Connaught Place, New Delhi, Delhi 110001",
+      "imageUrl": "http://offices.dlf.in/resourceContent/dsc_0968-f-2-0_2384.jpg",
+      "map": {
+        "type": "openstreetmap",
+        "metadata": {
+          "zoomLevel": 16,
+          "centerLatitude": 28.630008,
+          "centerLongitude": 77.213422
+        }
+      },
+      "metadata": {
+        "owner": "DLF",
+        "acceptedPaymentMethods": "cash,ewallet",
+        "areaServed": "Connaught Place",
+        "maximumAllowedWidth": 2,
+        "chargeType": "free",
+        "ovrestayRatePerCycle": 20,
+        "type": "OffStreetParking",
+        "layout": "multiLevel",
+        "normalRatePerCycle": 10,
+        "billingCyle": 15,
+        "allowedVehicleType": "cars",
+        "availableSpotNumber": 500,
+        "provider": "DLF",
+        "reviewCount": 256,
+        "requiredPermit": "noPermitNeeded",
+        "ratingValue": 5,
+        "maximumParkingDuration": 72,
+        "maximumAllowedHeight": 3,
+        "category": "underground,public,feeCharged,mediumTerm,barrierAccess",
+        "totalSpotNumber": 500,
+        "occupancyDetectionType": "singleSpaceDetection"
+      }
+    },
+    {
+      "createdDate": 1488788046194,
+      "createdBy": "ajar",
+      "updatedDate": 1488871518731,
+      "updatedBy": "ajar",
+      "deleted": false,
+      "token": "7e025e69-3058-417a-ad26-b1459ad0e36e",
+      "name": "Palika Bazaar Parking",
+      "description": "Palika Bazar, Connaught Place, New Delhi, Delhi 110001",
+      "imageUrl": "http://www.livemint.com/rf/Image-621x414/LiveMint/Period1/2007/09/09/Photos/b56b65ee-d11c-4c38-9261-36723a51792e.jpg",
+      "map": {
+        "type": "openstreetmap",
+        "metadata": {
+          "zoomLevel": 16,
+          "centerLatitude": 28.631439,
+          "centerLongitude": 77.218437
+        }
+      },
+      "metadata": {
+        "owner": "DLF",
+        "acceptedPaymentMethods": "cash,ewallet",
+        "areaServed": "Connaught Place",
+        "maximumAllowedWidth": 2,
+        "chargeType": "free",
+        "ovrestayRatePerCycle": null,
+        "type": "OffStreetParking",
+        "layout": "multiLevel",
+        "normalRatePerCycle": 10,
+        "billingCyle": null,
+        "allowedVehicleType": "cars",
+        "availableSpotNumber": 0,
+        "provider": "DLF",
+        "reviewCount": 100,
+        "requiredPermit": "noPermitNeeded",
+        "ratingValue": 3,
+        "maximumParkingDuration": 24,
+        "maximumAllowedHeight": 3,
+        "category": "underground,public,feeCharged,mediumTerm,barrierAccess",
+        "totalSpotNumber": 150,
+        "occupancyDetectionType": "singleSpaceDetection"
+      }
+    }
+  ]
+}

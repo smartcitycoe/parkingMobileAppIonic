@@ -1,0 +1,65 @@
+<!--
+  Generated template for the Ticket page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+	<ion-navbar color="HeaderColor">
+		<ion-title>Parking Ticket</ion-title>
+	</ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+	<ion-list>
+		<ion-item>
+			<ion-label class="ion-heading">Parking Name</ion-label>
+			<ion-label>{{parkingLotName}}</ion-label>
+		</ion-item>
+
+		<ion-item>
+			<ion-label class="ion-heading">Slot Number</ion-label>
+			<ion-label>{{assetName}}</ion-label>
+		</ion-item>
+
+
+		<ion-item>
+			<ion-label class="ion-heading">Start Time</ion-label>
+			<ion-label>{{starttime}}</ion-label>
+		</ion-item>
+
+		<ion-item>
+			<ion-label class="ion-heading">End Time</ion-label>
+			<ion-label>{{endtime}}</ion-label>
+		</ion-item>
+
+		<!--<ion-item>
+			<ion-label class="ion-heading">Calendar Id</ion-label>
+			<ion-label>{{calendarId}}</ion-label>
+		</ion-item>-->
+
+		<ion-item>
+			<ion-label class="ion-heading">Event ID</ion-label>
+			<ion-label>{{eventId}}</ion-label>
+		</ion-item>
+
+		<ion-item>
+			<ion-label class="ion-heading">Email</ion-label>
+			<ion-label class="item-text-wrap">{{email}}</ion-label>
+		</ion-item>
+
+		<!--<ion-item>
+			<ion-label class="ion-heading">Site Token</ion-label>
+			<ion-label>{{siteToken}}</ion-label>
+		</ion-item>
+		<ion-item>
+			<ion-label class="ion-heading">AssignmentToken</ion-label>
+			<ion-label>{{assignmentToken}}</ion-label>
+		</ion-item>-->
+
+	</ion-list>
+	<button ion-button block (click)="viewcode()">View QR Code</button>
+
+</ion-content>

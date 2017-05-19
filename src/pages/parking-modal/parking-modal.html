@@ -1,0 +1,50 @@
+<!--
+  Generated template for the ParkingModal page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-header>
+  <ion-navbar color="HeaderColor">
+		<ion-title class="ptitle">{{pName}}<a id="close" href="#" (click)="closeModal()"></a></ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+		<div class="card-subtitle2">{{address}}</div>
+
+   <ion-card>
+    <img src="" id="photo"/>
+  </ion-card>
+<marquee scrolldelay="150" class="marq">Penality of 25 Rs will be deducted from your account in case of no show.</marquee>
+
+<ion-list>
+		<ion-item>
+			<ion-label class="ion-heading">Total Capacity</ion-label>
+			<ion-label >{{capacity}}</ion-label>
+		</ion-item>
+
+		<ion-item>
+			<ion-label class="ion-heading">Availability</ion-label>
+			<ion-label >{{availability}}</ion-label>
+		</ion-item>
+
+		<ion-item>
+			<ion-label class="ion-heading">Min. Charge</ion-label>
+			<ion-label >{{minimum}}</ion-label>
+		</ion-item>
+
+		<ion-item>
+			<ion-label class="ion-heading">Max. Duration</ion-label>
+			<ion-label >{{maxduration}}</ion-label>
+		</ion-item>
+
+		<ion-item>
+			<ion-label class="ion-heading">OverStay Rate</ion-label>
+			<ion-label >{{overstay}}</ion-label>
+		</ion-item>
+</ion-list>
+  <button ion-button block (click)="doBooking()" [disabled]="!isenabled">Book</button>
+</ion-content>
